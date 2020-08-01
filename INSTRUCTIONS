@@ -24,13 +24,13 @@
 
  7) Create an automate build setup based on Make to
 
-    	   libex2.o out of exe.c
-    	   ex1 out of ex1.c and libexe.so
+    	   	libex2.o out of exe.c
+    	   	ex1 out of ex1.c and libexe.so
     
     and to install the programs, respectively in
 
-    	   $(PREFIX)/usr/bin
-	   $(PREFIX)/usr/lib
+    		$(PREFIX)/usr/bin
+			$(PREFIX)/usr/lib
 
     where PREFIX is a user variable passed to Make during the build.
 
@@ -38,11 +38,11 @@
     
     Mekfile should support at least targets
 
-    	    all        (default), build everything
+    	all        (default), build everything
 	    clean      restore directory to the pre-build state.
 	    install    copy build files into the proper directories
 	    uninstall  undue install actions
-    
+
 
  Requirements
  -------------
@@ -62,5 +62,3 @@
 
  GNU Make
  (eg: apt install make)
-
-
